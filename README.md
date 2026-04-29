@@ -1,4 +1,3 @@
-## Differences from stock AOSPA kernel:
 - Added KernelSU (GKI)
 - Added SuSFS
 - Added support for unofficial version of KernelSU manager (backslashxx)
