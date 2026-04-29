@@ -1,4 +1,4 @@
-name: build-kernel
+name: AOSPA Marble GKI (KernelSU + SuSFS)
 on:
   workflow_dispatch:
 permissions:
@@ -119,7 +119,7 @@ jobs:
           zip -r9 "../kernel.zip" *
       - name: Generate release tag
         id: tag
-        run: echo "release_tag=AOSPA_Marble_GKI_KSU_SuSFS_$(date +'%Y.%m.%d_%H%M')" >> "$GITHUB_OUTPUT"
+        run: echo "release_tag=AOSPA_Marble_GKI_KernelSU_SuSFS_$(date +'%Y.%m.%d_%H%M')" >> "$GITHUB_OUTPUT"
       - name: Create release
         uses: softprops/action-gh-release@v3.0.0
         with:
