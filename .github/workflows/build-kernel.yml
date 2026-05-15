@@ -73,7 +73,7 @@ jobs:
         run: |
           cd kernel_platform/xiaomi/sm8450
           rmdir KernelSU
-          curl -LSs "https://raw.githubusercontent.com/tiann/KernelSU/main/kernel/setup.sh" | bash -s a1a0397
+          curl -LSs "https://raw.githubusercontent.com/tiann/KernelSU/main/kernel/setup.sh" | bash -s f261dc4
       - name: Include SuSFS
         run: |
           HOME="$(pwd)"
