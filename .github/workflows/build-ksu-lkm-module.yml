@@ -1,4 +1,4 @@
-name: build-ksu-lkm-module
+name: KernelSU LKM module
 on:
   workflow_dispatch:
 env:
