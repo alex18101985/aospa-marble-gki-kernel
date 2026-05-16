@@ -1,4 +1,4 @@
-# AOSPA Marble Kernel
+# AOSPA Beryl Kernel
 
 - Added Westwood TCP (set as default)
 - Built with latest Clang
